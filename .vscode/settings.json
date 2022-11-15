@@ -1,0 +1,21 @@
+{
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false
+  },
+  "python.defaultInterpreterPath": "/Users/felipillo/miniconda3/bin/python",
+  "python.condaPath": "/Users/felipillo/miniconda3/bin/conda",
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "/Users/felipillo/miniconda3/bin/pylint",
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/Users/felipillo/miniconda3/bin/black",
+  "python.formatting.blackArgs": ["--line-length", "79"],
+  "python.testing.autoTestDiscoverOnSaveEnabled": true,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestPath": "/Users/felipillo/miniconda3/bin/pytest",
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.analysis.typeCheckingMode": "basic"
+}
