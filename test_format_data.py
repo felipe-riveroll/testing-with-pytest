@@ -3,6 +3,7 @@
 import pytest
 from format_data import format_data_for_display, format_data_for_excel
 
+
 @pytest.fixture
 def example_people_data():
     """Example people data"""
@@ -27,9 +28,12 @@ def test_format_data_for_display(example_people_data):
         "Sayd Khan: Project Manager",
     ]
 
+
 def test_format_data_for_excel(example_people_data):
-    """Test for format_data_for_excel()"""    
-    assert format_data_for_excel(example_people_data) == """given,family,title
-    Alfonsa,Ruiz,Senior Software Engineer
-    Sayd,Khan,Project Manager
-    """
+    """Test for format_data_for_excel()"""
+    assert (
+        format_data_for_excel(example_people_data)
+        == """given,family,title
+Alfonsa,Ruiz,Senior Software Engineer
+Sayd,Khan,Project Manager"""
+    )
